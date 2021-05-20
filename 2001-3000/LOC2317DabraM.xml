@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
-schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng" 
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/BetaMasaheft/Schema/master/tei-betamesaheft.rng"
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" type="place" xml:lang="en" xml:id="LOC2317DabraM">
    <teiHeader xml:base="https://betamasaheft.eu/">
       <fileDesc>
          <titleStmt>
-            <title>Dabra Māryām</title>
+            <title>Dabra Māryām Qʷaḥayn</title>
             <author/>
             <editor role="generalEditor" key="AB"/>
             <funder>Akademie der Wissenschaften in Hamburg</funder>
@@ -19,7 +19,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
                         under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            
+
             <date>2016-03-21</date>
          </publicationStmt>
          <sourceDesc>
@@ -38,6 +38,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
          <langUsage><language ident="en">English</language></langUsage>
       </profileDesc>
       <revisionDesc>
+        <change who="DN" when="2020-12-29">Editing</change>
          <change who="PL" when="2016-04-27">harmonized typology based on Eugenia indication in Issue 48.</change>
          <change who="PL" when="2016-03-21"> Created file from
                                                   google spreadsheet </change>
@@ -49,14 +50,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI
       <body>
          <listPlace>
             <place type="monastery" sameAs="wd:Q5248543">
-               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርያም፡</placeName>
-               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Māryām</placeName>
-               
-               <placeName xml:lang="gez" xml:id="n2" type="alt">እንዳ፡ አቡነ፡ አብሳዲ፡</placeName>
-               <placeName xml:lang="gez" corresp="#n2" type="normalized">ʾƎndā ʾAbuna ʾAbsādi</placeName>
-               
-               
-          
+               <placeName xml:lang="gez" xml:id="n1">ደብረ፡ ማርያም፡ ቈሐይን፡</placeName>
+               <placeName xml:lang="gez" corresp="#n1" type="normalized">Dabra Māryām Qʷaḥayn</placeName>
+
+               <placeName xml:lang="gez" xml:id="n2">ደብረ፡ ማርያም፡</placeName>
+               <placeName xml:lang="gez" corresp="#n2" type="normalized">Dabra Māryām</placeName>
+
+               <placeName xml:lang="gez" xml:id="n3" type="alt">እንዳ፡ አቡነ፡ አብሳዲ፡</placeName>
+               <placeName xml:lang="gez" corresp="#n3" type="normalized">ʾƎndā ʾAbuna ʾAbsādi</placeName>
+               <country ref="LOC2991Eritre"/>
+               <region ref="LOC5575Saraye"/>
+               <settlement ref="LOC5271Qwahay"/>
+
+
             </place>
             <listRelation><relation name="gn:locatedIn" active="LOC2317DabraM" passive="LOC5271Qwahay"></relation></listRelation>
          </listPlace>
